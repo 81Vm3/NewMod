@@ -63,7 +63,7 @@ jar {
 	}
 }
 
-// configure the maven publication
+// configure the maven git@github.com:81Vm3/NewMod.gitpublication
 publishing {
 	publications {
 		mavenJava(MavenPublication) {
