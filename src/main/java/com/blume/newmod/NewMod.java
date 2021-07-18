@@ -1,5 +1,6 @@
 package com.blume.newmod;
 
+import com.blume.newmod.registry.ModBlock;
 import com.blume.newmod.registry.ModItem;
 import net.fabricmc.api.ModInitializer;
 
@@ -8,8 +9,10 @@ public class NewMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        System.out.println("Hello world!!!!BLUMEBLUME!!!!!!!");
 
         ModItem.registerAllItems();
+        ModBlock.registerAllBlock();
+
+        System.out.println("______NewMod______");
     }
 }
